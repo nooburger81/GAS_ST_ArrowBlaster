@@ -2,3 +2,8 @@
 
 
 #include "GAS_ST_GameplayAbility.h"
+
+UGAS_ST_GameplayAbility::UGAS_ST_GameplayAbility()
+{
+	ActivationOwnedTags.AddTag(FGameplayTag::RequestGameplayTag(FName("GASAB.Active")));
+}

@@ -15,6 +15,8 @@ class GAS_STARTER_TEMPLATE_API UGAS_ST_GameplayAbility : public UGameplayAbility
 	GENERATED_BODY()
 
 public:
+	UGAS_ST_GameplayAbility();
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GAS|UI")
 	bool ShouldShowInAbilitiesBar = false;
 };
