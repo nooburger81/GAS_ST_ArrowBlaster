@@ -19,4 +19,8 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GAS|UI")
 	bool ShouldShowInAbilitiesBar = false;
+
+private:
+	UFUNCTION(BlueprintCallable, Category = "Helpers")
+	bool HasPC() const;
 };
